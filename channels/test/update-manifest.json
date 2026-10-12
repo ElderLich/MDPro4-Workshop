@@ -1,0 +1,76 @@
+{
+  "version": "1.0.1",
+  "platformVersions": {
+    "windows": "1.0.1",
+    "android": "1.0.1",
+    "macos": "1.0.1",
+    "linux": "1.0.1"
+  },
+  "platformBaseVersions": {
+    "windows": "1.0.0",
+    "android": "1.0.0",
+    "macos": "1.0.0",
+    "linux": "1.0.0"
+  },
+  "platformNotes": {
+    "windows": "TEST FIXTURE ONLY. Do not install into a real game. Patch Studio integration acceptance.",
+    "android": "TEST FIXTURE ONLY. Do not install into a real game. Patch Studio integration acceptance.",
+    "macos": "TEST FIXTURE ONLY. Do not install into a real game. Patch Studio integration acceptance.",
+    "linux": "TEST FIXTURE ONLY. Do not install into a real game. Patch Studio integration acceptance."
+  },
+  "notes": "TEST FIXTURE ONLY. Do not install into a real game. Patch Studio integration acceptance.",
+  "downloads": [
+    {
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.1",
+      "groupId": "windows-1.0.0-to-1.0.1",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.1-test.1/MDPro4-windows-1.0.0-to-1.0.1.zip",
+      "mirrors": [],
+      "fileName": "MDPro4-windows-1.0.0-to-1.0.1.zip",
+      "sizeBytes": 1430,
+      "sha256": "de8fa7f8d06e6920cca13129ac078ec2a45f307f439bd5d4b2dd4d8fca2df9a5"
+    },
+    {
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "data",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.1",
+      "groupId": "android-1.0.0-to-1.0.1",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.1-test.1/MDPro4-android-1.0.0-to-1.0.1.zip",
+      "mirrors": [],
+      "fileName": "MDPro4-android-1.0.0-to-1.0.1.zip",
+      "sizeBytes": 1358,
+      "sha256": "8fff9bfe617395976298a9b57b2840c2b122bc319c75ac71bdb2b5aeb564a789"
+    },
+    {
+      "platform": "macos",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.1",
+      "groupId": "macos-1.0.0-to-1.0.1",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.1-test.1/MDPro4-macos-1.0.0-to-1.0.1.tar.gz",
+      "mirrors": [],
+      "fileName": "MDPro4-macos-1.0.0-to-1.0.1.tar.gz",
+      "sizeBytes": 673,
+      "sha256": "a5acac0c916439bf9020a9b247e6dc292fde8249bc30fcefd7ffe7752a7f79bf"
+    },
+    {
+      "platform": "linux",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.1",
+      "groupId": "linux-1.0.0-to-1.0.1",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.1-test.1/MDPro4-linux-1.0.0-to-1.0.1.tar.gz",
+      "mirrors": [],
+      "fileName": "MDPro4-linux-1.0.0-to-1.0.1.tar.gz",
+      "sizeBytes": 666,
+      "sha256": "326165cb22984295c65b685012d44001caa9774ebfbd3a5132bb0cd4b9ec5d79"
+    }
+  ]
+}
