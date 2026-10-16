@@ -23,11 +23,11 @@
       "fromVersion": "1.0.0",
       "toVersion": "1.0.2",
       "groupId": "windows-1.0.0-to-1.0.2",
-      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.2/MDPro4-windows-1.0.0-to-1.0.2.zip",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.2/MDPro4-windows-1.0.0-to-1.0.2-userdata-safe.zip",
       "mirrors": [],
-      "fileName": "MDPro4-windows-1.0.0-to-1.0.2.zip",
-      "sizeBytes": 1488678483,
-      "sha256": "463eaa0b6471e6e9c7f7c96d64f6fbf913eb3c05026fe0538691c267bdf0c833"
+      "fileName": "MDPro4-windows-1.0.0-to-1.0.2-userdata-safe.zip",
+      "sizeBytes": 1488678467,
+      "sha256": "2784144182f37b4edcc46ef660eee4fd7a81e99a257637340e636d03bab6add4"
     },
     {
       "platform": "windows",
@@ -36,23 +36,23 @@
       "fromVersion": "1.0.1",
       "toVersion": "1.0.2",
       "groupId": "windows-1.0.1-to-1.0.2",
-      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.2/MDPro4-windows-1.0.1-to-1.0.2.zip",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.2/MDPro4-windows-1.0.1-to-1.0.2-userdata-safe.zip",
       "mirrors": [],
-      "fileName": "MDPro4-windows-1.0.1-to-1.0.2.zip",
-      "sizeBytes": 1222060770,
-      "sha256": "7a97844002139f043989590bdb1da635bbe39210ffe5764e52c1115c3ca99fe3"
+      "fileName": "MDPro4-windows-1.0.1-to-1.0.2-userdata-safe.zip",
+      "sizeBytes": 1222060754,
+      "sha256": "b683ebb9849965014c2845292c274d7d4397fec80721bfb7647f2cfef0b3fe25"
     },
     {
-      "fileName": "MDPro4-android-1.0.0-to-1.0.2.zip",
-      "sizeBytes": 1198106049,
-      "sha256": "00ec94a809f69f6c34d8aceb8def6d0a1bd94ebd0ca211141904d6c29f1f4c9a",
+      "fileName": "MDPro4-android-1.0.0-to-1.0.2-userdata-safe.zip",
+      "sizeBytes": 1198106033,
+      "sha256": "9d9063e35a02da2c0c6545cef7d16fb51ba9c0aa82c68bbbe9e4448ffe48c49c",
       "platform": "android",
       "packageKind": "patch",
       "packageTarget": "data",
       "fromVersion": "1.0.0",
       "toVersion": "1.0.2",
       "groupId": "android-1.0.0-to-1.0.2",
-      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.2-android-corrected-20261016/MDPro4-android-1.0.0-to-1.0.2.zip",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.2-android-corrected-20261016/MDPro4-android-1.0.0-to-1.0.2-userdata-safe.zip",
       "mirrors": []
     },
     {
@@ -69,16 +69,16 @@
       "sha256": "4433e472a5ebb0ab231e6e3d3f8e963c5446ad6c43815eb51432f1104a287fa9"
     },
     {
-      "fileName": "MDPro4-android-1.0.1-to-1.0.2.zip",
-      "sizeBytes": 963130250,
-      "sha256": "f2eaef7eed585ec1ccd87c7aa60a0b586047cc9ba1d707139e77cbbd1a45a2ec",
+      "fileName": "MDPro4-android-1.0.1-to-1.0.2-userdata-safe.zip",
+      "sizeBytes": 963130234,
+      "sha256": "bb4227f3205e61ba991cae8949ed70496c62f493b008d67b66d2d0ba7e1517b1",
       "platform": "android",
       "packageKind": "patch",
       "packageTarget": "data",
       "fromVersion": "1.0.1",
       "toVersion": "1.0.2",
       "groupId": "android-1.0.1-to-1.0.2",
-      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.2-android-corrected-20261016/MDPro4-android-1.0.1-to-1.0.2.zip",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.2-android-corrected-20261016/MDPro4-android-1.0.1-to-1.0.2-userdata-safe.zip",
       "mirrors": []
     },
     {
