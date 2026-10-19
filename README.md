@@ -18,6 +18,13 @@ release. Windows and Android retain historical update routes from 1.0.0 and
 MDPro3 releases have been retired; MDPro4 is a fresh installation, including a
 new Android application identity.
 
+Patch targets are curated to the newest four releases (currently 1.0.4,
+1.0.3.2, 1.0.3.1 and 1.0.3), with older bridge routes retained when needed.
+Every supported installed version still has a direct route to 1.0.4; this
+includes Windows/Android 1.0.0 installations. A cumulative patch requires
+its exact installed baseline and does not replace a full offline installer.
+This catalog cleanup removes no Cloudflare payload, installer or historical index.
+
 ## Build and publish
 
 Use **Release Studio** to compose a complete release snapshot and package an
