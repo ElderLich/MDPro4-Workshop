@@ -3,10 +3,12 @@
   "version": "1.0.3.1",
   "notes": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
   "platformVersions": {
-    "windows": "1.0.3.1"
+    "windows": "1.0.3.1",
+    "linux": "1.0.3.1"
   },
   "platformBaseVersions": {
-    "windows": "1.0.3"
+    "windows": "1.0.3",
+    "linux": "1.0.3"
   },
   "downloads": [
     {
@@ -21,9 +23,23 @@
       "groupId": "windows-1.0.3-to-1.0.3.1",
       "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-to-1.0.3.1.zip",
       "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-linux-1.0.3-to-1.0.3.1.tar.gz",
+      "sizeBytes": 413384996,
+      "sha256": "b7092740f7e480c80fa452ff224fe1cc6baf13c3bb05931a1d1c4169be7460ee",
+      "platform": "linux",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3",
+      "toVersion": "1.0.3.1",
+      "groupId": "linux-1.0.3-to-1.0.3.1",
+      "url": "https://updates.elderlich.com/patches/linux/MDPro4-linux-1.0.3-to-1.0.3.1.tar.gz",
+      "mirrors": []
     }
   ],
   "platformNotes": {
-    "windows": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
+    "windows": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
+    "linux": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
   }
 }
