@@ -1,20 +1,98 @@
 {
   "schemaVersion": 2,
-  "version": "1.0.3.2",
-  "notes": "1. Fixed Windows update installation failing before the updater helper could start in IL2CPP players.\n2. Includes the 1.0.3.1 restoration of Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content.\n3. Existing settings, decks, adventure progress and WCS2006 puzzles are preserved.\n4. If Windows 1.0.3 or 1.0.3.1 reports FileVersionInfo during installation, close the game, extract the recovery ZIP beside MDPro4.exe, run Repair-Windows-1.0.3-Updater.cmd, then reopen and update: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
+  "version": "1.0.4",
+  "notes": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
   "platformVersions": {
-    "windows": "1.0.3.2",
+    "windows": "1.0.4",
     "linux": "1.0.3.1",
     "macos": "1.0.3.1",
     "android": "1.0.3.1"
   },
   "platformBaseVersions": {
-    "windows": "1.0.3",
+    "windows": "1.0.0",
     "linux": "1.0.3",
     "macos": "1.0.3",
     "android": "1.0.3"
   },
   "downloads": [
+    {
+      "fileName": "MDPro4-windows-1.0.0-to-1.0.4.zip",
+      "sizeBytes": 4519148974,
+      "sha256": "d55270de26806e148fa93fdb6778de3bfb9bffc6eab25481402884fc1632e667",
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.4",
+      "groupId": "windows-1.0.0-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.0-to-1.0.4.zip",
+      "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-windows-1.0.1-to-1.0.4.zip",
+      "sizeBytes": 4252569377,
+      "sha256": "04fc2ae060fad77f16d06e86608f548f4c83e1e1ab049a89285fcae1d9b3a2b3",
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.1",
+      "toVersion": "1.0.4",
+      "groupId": "windows-1.0.1-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.1-to-1.0.4.zip",
+      "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-windows-1.0.2-to-1.0.4.zip",
+      "sizeBytes": 3395955628,
+      "sha256": "69980ac2d59218e896030cf1b44f525d4a2e8975d13f1dde3d48c1009fa32ee7",
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.2",
+      "toVersion": "1.0.4",
+      "groupId": "windows-1.0.2-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.2-to-1.0.4.zip",
+      "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-windows-1.0.3-to-1.0.4.zip",
+      "sizeBytes": 728762426,
+      "sha256": "440e277f6eafa2f1537332283e3e77d11981dff942896f6724aafccdb018e0ff",
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3",
+      "toVersion": "1.0.4",
+      "groupId": "windows-1.0.3-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-to-1.0.4.zip",
+      "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-windows-1.0.3.1-to-1.0.4.zip",
+      "sizeBytes": 315010942,
+      "sha256": "15a314d21b09524e4d408f002508e539e5ca5409d2c084772d37558d1769cd4c",
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3.1",
+      "toVersion": "1.0.4",
+      "groupId": "windows-1.0.3.1-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3.1-to-1.0.4.zip",
+      "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-windows-1.0.3.2-to-1.0.4.zip",
+      "sizeBytes": 315150429,
+      "sha256": "b1e1b8f5824c7ea53fb5fd4be4aff56178e42bd6f42879d3e584a50b991e9ec1",
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3.2",
+      "toVersion": "1.0.4",
+      "groupId": "windows-1.0.3.2-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3.2-to-1.0.4.zip",
+      "mirrors": []
+    },
     {
       "fileName": "MDPro4-windows-1.0.3-to-1.0.3.2.zip",
       "sizeBytes": 576417301,
@@ -95,7 +173,7 @@
     }
   ],
   "platformNotes": {
-    "windows": "1. Fixed Windows update installation failing before the updater helper could start in IL2CPP players.\n2. Includes the 1.0.3.1 restoration of Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content.\n3. Existing settings, decks, adventure progress and WCS2006 puzzles are preserved.\n4. If Windows 1.0.3 or 1.0.3.1 reports FileVersionInfo during installation, close the game, extract the recovery ZIP beside MDPro4.exe, run Repair-Windows-1.0.3-Updater.cmd, then reopen and update: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
+    "windows": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
     "linux": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
     "macos": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
     "android": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
