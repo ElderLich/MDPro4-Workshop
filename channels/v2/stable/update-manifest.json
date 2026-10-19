@@ -29,32 +29,6 @@
       "mirrors": []
     },
     {
-      "platform": "windows",
-      "packageKind": "patch",
-      "packageTarget": "app",
-      "fromVersion": "1.0.1",
-      "toVersion": "1.0.2",
-      "groupId": "windows-1.0.1-to-1.0.2",
-      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.1-to-1.0.2-userdata-safe.zip",
-      "mirrors": [],
-      "fileName": "MDPro4-windows-1.0.1-to-1.0.2-userdata-safe.zip",
-      "sizeBytes": 1222060754,
-      "sha256": "b683ebb9849965014c2845292c274d7d4397fec80721bfb7647f2cfef0b3fe25"
-    },
-    {
-      "fileName": "MDPro4-windows-1.0.2-to-1.0.3.zip",
-      "sizeBytes": 3395654003,
-      "sha256": "e4be811ce9f08d20533d899b15f5b4eb82411932e51929a2218008d15ee45f9d",
-      "platform": "windows",
-      "packageKind": "patch",
-      "packageTarget": "app",
-      "fromVersion": "1.0.2",
-      "toVersion": "1.0.3",
-      "groupId": "windows-1.0.2-to-1.0.3",
-      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.2-to-1.0.3.zip",
-      "mirrors": []
-    },
-    {
       "fileName": "MDPro4-windows-1.0.3-to-1.0.3.1.zip",
       "sizeBytes": 414042853,
       "sha256": "3278d3778d8ce85fc5f9d470dc2451352ce8993b67ee22ff2c821d1889e9c383",
@@ -144,58 +118,6 @@
       "fileName": "MDPro4-android-1.0.4-update.apk",
       "sizeBytes": 307173879,
       "sha256": "936176ff85e7f424e91a013006ba83176977f3005bf49660741494ac9381cc33"
-    },
-    {
-      "fileName": "MDPro4-android-1.0.1-to-1.0.2-userdata-safe.zip",
-      "sizeBytes": 963130234,
-      "sha256": "bb4227f3205e61ba991cae8949ed70496c62f493b008d67b66d2d0ba7e1517b1",
-      "platform": "android",
-      "packageKind": "patch",
-      "packageTarget": "data",
-      "fromVersion": "1.0.1",
-      "toVersion": "1.0.2",
-      "groupId": "android-1.0.1-to-1.0.2",
-      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.1-to-1.0.2-userdata-safe.zip",
-      "mirrors": []
-    },
-    {
-      "platform": "android",
-      "packageKind": "patch",
-      "packageTarget": "app",
-      "fromVersion": "1.0.1",
-      "toVersion": "1.0.2",
-      "groupId": "android-1.0.1-to-1.0.2",
-      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.2-update.apk",
-      "mirrors": [],
-      "fileName": "MDPro4-android-1.0.2-update.apk",
-      "sizeBytes": 194119465,
-      "sha256": "4433e472a5ebb0ab231e6e3d3f8e963c5446ad6c43815eb51432f1104a287fa9"
-    },
-    {
-      "fileName": "MDPro4-android-1.0.2-to-1.0.3.zip",
-      "sizeBytes": 2901517482,
-      "sha256": "957dae6522ac1f01d7935cfc7a82a99d95d6886e65f80445cc8732c94a7d988a",
-      "platform": "android",
-      "packageKind": "patch",
-      "packageTarget": "data",
-      "fromVersion": "1.0.2",
-      "toVersion": "1.0.3",
-      "groupId": "android-1.0.2-to-1.0.3",
-      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.2-to-1.0.3.zip",
-      "mirrors": []
-    },
-    {
-      "platform": "android",
-      "packageKind": "patch",
-      "packageTarget": "app",
-      "fromVersion": "1.0.2",
-      "toVersion": "1.0.3",
-      "groupId": "android-1.0.2-to-1.0.3",
-      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.3-update.apk",
-      "mirrors": [],
-      "fileName": "MDPro4-android-1.0.3-update.apk",
-      "sizeBytes": 307172407,
-      "sha256": "3875dc72b3aec06a5a7a1d591d69f118ab31ff5d0fe6de5a3b98db5029dccdd2"
     },
     {
       "fileName": "MDPro4-android-1.0.3-to-1.0.3.1.zip",
@@ -325,5 +247,17 @@
     "android": "staged",
     "linux": "staged",
     "macos": "staged"
-  }
+  },
+  "platformRetiredVersions": {
+    "windows": [
+      "1.0.1",
+      "1.0.2"
+    ],
+    "android": [
+      "1.0.1",
+      "1.0.2"
+    ]
+  },
+  "releasePageUrl": "https://github.com/ElderLich/MDPro4-Workshop",
+  "message": "Small update steps start at 1.0.3. Windows and Android 1.0.1/1.0.2 installations need the current full installation; see the Workshop guide. Baseline installations retain their direct 1.0.4 patch. Reopen MDPro4 and check again after each staged update."
 }

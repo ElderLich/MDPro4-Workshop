@@ -19,14 +19,14 @@ from `https://updates.elderlich.com/patches/`.
 ## Retained patch layout
 
 Keep **one cumulative baseline-to-latest patch per platform**, then the adjacent
-steps needed by supported installations already past that baseline. Remove
+steps starting at **1.0.3**. Remove
 superseded baseline-to-older-target variants; do not keep every historical
 starting version's cumulative patch to latest.
 
 | Platform | Cumulative baseline patch | Retained adjacent steps |
 | --- | --- | --- |
-| Windows | 1.0.0 → 1.0.4 | 1.0.1 → 1.0.2 → 1.0.3 → 1.0.3.1 → 1.0.3.2 → 1.0.4 |
-| Android | 1.0.0 → 1.0.4 | 1.0.1 → 1.0.2 → 1.0.3 → 1.0.3.1 → 1.0.4 |
+| Windows | 1.0.0 → 1.0.4 | 1.0.3 → 1.0.3.1 → 1.0.3.2 → 1.0.4 |
+| Android | 1.0.0 → 1.0.4 | 1.0.3 → 1.0.3.1 → 1.0.4 |
 | Linux | 1.0.2 → 1.0.4 | 1.0.3 → 1.0.3.1 → 1.0.4 |
 | macOS | 1.0.2 → 1.0.4 | 1.0.3 → 1.0.3.1 → 1.0.4 |
 
@@ -42,9 +42,12 @@ it does not turn old clients into a combined-chain installer. Their existing
 planner offers the next applicable target. Android application/data groups stay
 complete; the 1.0.3 → 1.0.3.1 content-only update uses the installed application.
 
-The restored 1.0.1 → 1.0.2 bridges are the verified `userdata-safe` archives.
-Older files with similar names must not replace them. A cumulative patch applies
-to its exact installed baseline; relabeling it cannot make it universal.
+Windows/Android 1.0.1 and 1.0.2 routes are explicitly retired through
+`platformRetiredVersions`. Those clients receive the Workshop installation guide
+instead of an inapplicable patch. The retained 1.0.0 baseline route remains
+valid; this is an exact-version retirement, not a new minimum that would disable
+the baseline. A cumulative patch applies to its exact installed baseline;
+relabeling it cannot make it universal.
 
 ## Publishing and retirement
 

@@ -39,6 +39,14 @@ MDPro4 installation when moving from MDPro3.
 
 ## Update your game
 
+**Small patch steps start at 1.0.3.** Windows and Android 1.0.1 / 1.0.2 update
+routes have been retired; use the full installation guidance above to move to a
+current supported release. Keep your personal files and follow the package's
+installation instructions. Do not apply a 1.0.0 patch to those versions.
+
+Existing baseline installations still have one direct patch to 1.0.4:
+**Windows/Android 1.0.0** and **Linux/macOS 1.0.2**.
+
 1. Open MDPro4 and use the **in-game update check**.
 2. Read the release notes and download the update offered for your installed version.
 3. Let installation finish. On desktop, keep the game closed while the updater applies files.
@@ -81,6 +89,8 @@ then install the [recovery APK](https://updates.elderlich.com/patches/android/MD
 over the affected existing app and allow its resource
 repair to finish. **Do not uninstall MDPro4 or clear its storage.** Working
 installations and new players do not need this recovery package.
+After repairing an affected 1.0.2 installation, follow the full installation
+guide to move to a current release; its old incremental update route is retired.
 
 ## Get help
 
