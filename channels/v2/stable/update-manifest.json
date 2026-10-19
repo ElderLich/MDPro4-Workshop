@@ -4,11 +4,13 @@
   "notes": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
   "platformVersions": {
     "windows": "1.0.3.1",
-    "linux": "1.0.3.1"
+    "linux": "1.0.3.1",
+    "macos": "1.0.3.1"
   },
   "platformBaseVersions": {
     "windows": "1.0.3",
-    "linux": "1.0.3"
+    "linux": "1.0.3",
+    "macos": "1.0.3"
   },
   "downloads": [
     {
@@ -36,10 +38,24 @@
       "groupId": "linux-1.0.3-to-1.0.3.1",
       "url": "https://updates.elderlich.com/patches/linux/MDPro4-linux-1.0.3-to-1.0.3.1.tar.gz",
       "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-macos-1.0.3-to-1.0.3.1.tar.gz",
+      "sizeBytes": 413387730,
+      "sha256": "4aab8fd8ca6258a969d5c247937c11af56a8051b23a25a868f9c5a66204c8184",
+      "platform": "macos",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3",
+      "toVersion": "1.0.3.1",
+      "groupId": "macos-1.0.3-to-1.0.3.1",
+      "url": "https://updates.elderlich.com/patches/macos/MDPro4-macos-1.0.3-to-1.0.3.1.tar.gz",
+      "mirrors": []
     }
   ],
   "platformNotes": {
     "windows": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
-    "linux": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
+    "linux": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
+    "macos": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
   }
 }
