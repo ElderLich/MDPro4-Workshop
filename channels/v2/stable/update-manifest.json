@@ -5,13 +5,13 @@
   "platformVersions": {
     "windows": "1.0.4",
     "linux": "1.0.4",
-    "macos": "1.0.3.1",
+    "macos": "1.0.4",
     "android": "1.0.3.1"
   },
   "platformBaseVersions": {
     "windows": "1.0.0",
     "linux": "1.0.2",
-    "macos": "1.0.3",
+    "macos": "1.0.2",
     "android": "1.0.3"
   },
   "downloads": [
@@ -133,6 +133,45 @@
       "mirrors": []
     },
     {
+      "fileName": "MDPro4-macos-1.0.2-to-1.0.4.tar.gz",
+      "sizeBytes": 3253107748,
+      "sha256": "d7856ee1a9aeec73438d320769fc5bcd58bdd14d8f892b21de8c53c390574346",
+      "platform": "macos",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.2",
+      "toVersion": "1.0.4",
+      "groupId": "macos-1.0.2-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/macos/MDPro4-macos-1.0.2-to-1.0.4.tar.gz",
+      "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-macos-1.0.3-to-1.0.4.tar.gz",
+      "sizeBytes": 536266508,
+      "sha256": "bf48741a649c05dd8f0a07d392bbf18d97115620f7d2ba97200962ef4f339f52",
+      "platform": "macos",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3",
+      "toVersion": "1.0.4",
+      "groupId": "macos-1.0.3-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/macos/MDPro4-macos-1.0.3-to-1.0.4.tar.gz",
+      "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-macos-1.0.3.1-to-1.0.4.tar.gz",
+      "sizeBytes": 123173847,
+      "sha256": "018898ad822f34771fa29a1312e2a860bc04a52fc7d618fbb9b99cc73ce18378",
+      "platform": "macos",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3.1",
+      "toVersion": "1.0.4",
+      "groupId": "macos-1.0.3.1-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/macos/MDPro4-macos-1.0.3.1-to-1.0.4.tar.gz",
+      "mirrors": []
+    },
+    {
       "fileName": "MDPro4-windows-1.0.3-to-1.0.3.2.zip",
       "sizeBytes": 576417301,
       "sha256": "654cb80b1d3e6c19b7f8307f7dd3342a7898fdc3e791ca0c1af4455514114e2f",
@@ -214,7 +253,7 @@
   "platformNotes": {
     "windows": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
     "linux": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
-    "macos": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
+    "macos": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
     "android": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
   }
 }
