@@ -6,13 +6,13 @@
     "windows": "1.0.4",
     "linux": "1.0.4",
     "macos": "1.0.4",
-    "android": "1.0.3.1"
+    "android": "1.0.4"
   },
   "platformBaseVersions": {
     "windows": "1.0.0",
     "linux": "1.0.2",
     "macos": "1.0.2",
-    "android": "1.0.3"
+    "android": "1.0.0"
   },
   "downloads": [
     {
@@ -172,6 +172,136 @@
       "mirrors": []
     },
     {
+      "fileName": "MDPro4-android-1.0.0-to-1.0.4.zip",
+      "sizeBytes": 4075017415,
+      "sha256": "f3fbcb79c8aeb19279f7ba09546e0852b603d185f9c1b5a7b6bc7503adc81bff",
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "data",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.4",
+      "groupId": "android-1.0.0-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.0-to-1.0.4.zip",
+      "mirrors": []
+    },
+    {
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.4",
+      "groupId": "android-1.0.0-to-1.0.4",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.4/MDPro4-android-1.0.4-update.apk",
+      "mirrors": [],
+      "fileName": "MDPro4-android-1.0.4-update.apk",
+      "sizeBytes": 307173879,
+      "sha256": "936176ff85e7f424e91a013006ba83176977f3005bf49660741494ac9381cc33"
+    },
+    {
+      "fileName": "MDPro4-android-1.0.1-to-1.0.4.zip",
+      "sizeBytes": 3840075649,
+      "sha256": "31840635c565084d9dbada588e935b57d8051f43f65f4f01fc4aa23ef8ecbaa4",
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "data",
+      "fromVersion": "1.0.1",
+      "toVersion": "1.0.4",
+      "groupId": "android-1.0.1-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.1-to-1.0.4.zip",
+      "mirrors": []
+    },
+    {
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.1",
+      "toVersion": "1.0.4",
+      "groupId": "android-1.0.1-to-1.0.4",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.4/MDPro4-android-1.0.4-update.apk",
+      "mirrors": [],
+      "fileName": "MDPro4-android-1.0.4-update.apk",
+      "sizeBytes": 307173879,
+      "sha256": "936176ff85e7f424e91a013006ba83176977f3005bf49660741494ac9381cc33"
+    },
+    {
+      "fileName": "MDPro4-android-1.0.2-to-1.0.4.zip",
+      "sizeBytes": 2901824391,
+      "sha256": "70837838a13a7acd2488e59d486f3f315d66296d6af618ec7cf5696bd13b9a09",
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "data",
+      "fromVersion": "1.0.2",
+      "toVersion": "1.0.4",
+      "groupId": "android-1.0.2-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.2-to-1.0.4.zip",
+      "mirrors": []
+    },
+    {
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.2",
+      "toVersion": "1.0.4",
+      "groupId": "android-1.0.2-to-1.0.4",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.4/MDPro4-android-1.0.4-update.apk",
+      "mirrors": [],
+      "fileName": "MDPro4-android-1.0.4-update.apk",
+      "sizeBytes": 307173879,
+      "sha256": "936176ff85e7f424e91a013006ba83176977f3005bf49660741494ac9381cc33"
+    },
+    {
+      "fileName": "MDPro4-android-1.0.3-to-1.0.4.zip",
+      "sizeBytes": 414821770,
+      "sha256": "e418b814348c764ceccb033fde33f9e57f3773844737a032f455870c32ff1a47",
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "data",
+      "fromVersion": "1.0.3",
+      "toVersion": "1.0.4",
+      "groupId": "android-1.0.3-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.3-to-1.0.4.zip",
+      "mirrors": []
+    },
+    {
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3",
+      "toVersion": "1.0.4",
+      "groupId": "android-1.0.3-to-1.0.4",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.4/MDPro4-android-1.0.4-update.apk",
+      "mirrors": [],
+      "fileName": "MDPro4-android-1.0.4-update.apk",
+      "sizeBytes": 307173879,
+      "sha256": "936176ff85e7f424e91a013006ba83176977f3005bf49660741494ac9381cc33"
+    },
+    {
+      "fileName": "MDPro4-android-1.0.3.1-to-1.0.4.zip",
+      "sizeBytes": 1070286,
+      "sha256": "43b44556a12cc2d297b2f8e857c30d12da0d44daac41d2412abfb5092011a29c",
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "data",
+      "fromVersion": "1.0.3.1",
+      "toVersion": "1.0.4",
+      "groupId": "android-1.0.3.1-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.3.1-to-1.0.4.zip",
+      "mirrors": []
+    },
+    {
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3.1",
+      "toVersion": "1.0.4",
+      "groupId": "android-1.0.3.1-to-1.0.4",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.4/MDPro4-android-1.0.4-update.apk",
+      "mirrors": [],
+      "fileName": "MDPro4-android-1.0.4-update.apk",
+      "sizeBytes": 307173879,
+      "sha256": "936176ff85e7f424e91a013006ba83176977f3005bf49660741494ac9381cc33"
+    },
+    {
       "fileName": "MDPro4-windows-1.0.3-to-1.0.3.2.zip",
       "sizeBytes": 576417301,
       "sha256": "654cb80b1d3e6c19b7f8307f7dd3342a7898fdc3e791ca0c1af4455514114e2f",
@@ -254,6 +384,6 @@
     "windows": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
     "linux": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
     "macos": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
-    "android": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
+    "android": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip"
   }
 }
