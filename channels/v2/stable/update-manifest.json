@@ -4,13 +4,13 @@
   "notes": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
   "platformVersions": {
     "windows": "1.0.4",
-    "linux": "1.0.3.1",
+    "linux": "1.0.4",
     "macos": "1.0.3.1",
     "android": "1.0.3.1"
   },
   "platformBaseVersions": {
     "windows": "1.0.0",
-    "linux": "1.0.3",
+    "linux": "1.0.2",
     "macos": "1.0.3",
     "android": "1.0.3"
   },
@@ -94,6 +94,45 @@
       "mirrors": []
     },
     {
+      "fileName": "MDPro4-linux-1.0.2-to-1.0.4.tar.gz",
+      "sizeBytes": 3313504973,
+      "sha256": "a38f601a9e9717bd42c7117197171be1f01296b0673c6dc1d2cb981cea536e2d",
+      "platform": "linux",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.2",
+      "toVersion": "1.0.4",
+      "groupId": "linux-1.0.2-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/linux/MDPro4-linux-1.0.2-to-1.0.4.tar.gz",
+      "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-linux-1.0.3-to-1.0.4.tar.gz",
+      "sizeBytes": 597657987,
+      "sha256": "96406bd263525b946ef6d55a26de92e166ec36c88eef35d73d1d78bb36d61fa9",
+      "platform": "linux",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3",
+      "toVersion": "1.0.4",
+      "groupId": "linux-1.0.3-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/linux/MDPro4-linux-1.0.3-to-1.0.4.tar.gz",
+      "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-linux-1.0.3.1-to-1.0.4.tar.gz",
+      "sizeBytes": 184565470,
+      "sha256": "2cecf5c36b35faa68fcdc0baac65d4972ffbb04a758ab0e88c13d76d3f88caec",
+      "platform": "linux",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3.1",
+      "toVersion": "1.0.4",
+      "groupId": "linux-1.0.3.1-to-1.0.4",
+      "url": "https://updates.elderlich.com/patches/linux/MDPro4-linux-1.0.3.1-to-1.0.4.tar.gz",
+      "mirrors": []
+    },
+    {
       "fileName": "MDPro4-windows-1.0.3-to-1.0.3.2.zip",
       "sizeBytes": 576417301,
       "sha256": "654cb80b1d3e6c19b7f8307f7dd3342a7898fdc3e791ca0c1af4455514114e2f",
@@ -174,7 +213,7 @@
   ],
   "platformNotes": {
     "windows": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
-    "linux": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
+    "linux": "1. Rush Ritual monsters now use Ritual summon effects and voice categories instead of Fusion presentation.\n2. Fixed clicks near overlapping Extra Deck and Side Deck card edges selecting the neighboring card in Deck Editor.\n3. Fixed Genesys points appearing when opening Deck Editor with another card information mode selected.\n4. Added Duel Links fields to Deck Appearance. Each deck can use a specific field, turn it off, or inherit the global setting.\n5. Fixed Windows disk-space checks failing while preparing split updates and installing game resources in IL2CPP players.\n6. Includes the restored Solo Adventures content and preserves existing settings, decks, progress and personal card choices.\n7. Windows 1.0.3/1.0.3.1 users who encounter FileVersionInfo still need the one-time updater recovery before updating: https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip",
     "macos": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
     "android": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
   }
