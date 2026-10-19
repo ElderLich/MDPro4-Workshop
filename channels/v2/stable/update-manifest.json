@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "version": "1.0.3.1",
+  "notes": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
+  "platformVersions": {
+    "windows": "1.0.3.1"
+  },
+  "platformBaseVersions": {
+    "windows": "1.0.3"
+  },
+  "downloads": [
+    {
+      "fileName": "MDPro4-windows-1.0.3-to-1.0.3.1.zip",
+      "sizeBytes": 414042853,
+      "sha256": "3278d3778d8ce85fc5f9d470dc2451352ce8993b67ee22ff2c821d1889e9c383",
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.3",
+      "toVersion": "1.0.3.1",
+      "groupId": "windows-1.0.3-to-1.0.3.1",
+      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-to-1.0.3.1.zip",
+      "mirrors": []
+    }
+  ],
+  "platformNotes": {
+    "windows": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
+  }
+}
