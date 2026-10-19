@@ -60,7 +60,5 @@ publish and read back both catalogs. Remove a remote object only after checking
 all catalogs, recovery instructions and release references. Preserve local
 players, complete installers, source snapshots and historical indexes separately.
 
-The [Android 1.0.2 recovery APK](https://updates.elderlich.com/patches/android/MDPro4-android-1.0.2-recovery.apk)
-and its [instructions](https://updates.elderlich.com/patches/android/README-android-1.0.2-recovery.txt)
-are manual repair downloads for affected existing installations. They remain
-separate from normal update groups and are not new-player installers.
+The old Android 1.0.2 recovery download is retired along with its update routes.
+Affected installations use the full installation guidance in the Workshop README.

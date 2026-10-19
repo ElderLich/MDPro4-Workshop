@@ -82,16 +82,6 @@ installation and personal files while troubleshooting.
 If the repair says **Recovery is already configured**, fully close and reopen
 the game before retrying. This recovery is for the affected Windows versions.
 
-### Android 1.0.2 — `Dependency Exception` after updating
-
-Read the [Android 1.0.2 recovery instructions](https://updates.elderlich.com/patches/android/README-android-1.0.2-recovery.txt),
-then install the [recovery APK](https://updates.elderlich.com/patches/android/MDPro4-android-1.0.2-recovery.apk)
-over the affected existing app and allow its resource
-repair to finish. **Do not uninstall MDPro4 or clear its storage.** Working
-installations and new players do not need this recovery package.
-After repairing an affected 1.0.2 installation, follow the full installation
-guide to move to a current release; its old incremental update route is retired.
-
 ## Get help
 
 Join [MDPro4 / Requiem on Discord](https://discord.gg/xh8jUCN9uq) for installation
