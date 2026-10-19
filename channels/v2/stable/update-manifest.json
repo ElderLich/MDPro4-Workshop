@@ -5,12 +5,14 @@
   "platformVersions": {
     "windows": "1.0.3.1",
     "linux": "1.0.3.1",
-    "macos": "1.0.3.1"
+    "macos": "1.0.3.1",
+    "android": "1.0.3.1"
   },
   "platformBaseVersions": {
     "windows": "1.0.3",
     "linux": "1.0.3",
-    "macos": "1.0.3"
+    "macos": "1.0.3",
+    "android": "1.0.3"
   },
   "downloads": [
     {
@@ -51,11 +53,25 @@
       "groupId": "macos-1.0.3-to-1.0.3.1",
       "url": "https://updates.elderlich.com/patches/macos/MDPro4-macos-1.0.3-to-1.0.3.1.tar.gz",
       "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-android-1.0.3-to-1.0.3.1.zip",
+      "sizeBytes": 414042853,
+      "sha256": "774a7f9360c71db4560056bd28be55304801878d431494767f49f928daaa00a3",
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "data",
+      "fromVersion": "1.0.3",
+      "toVersion": "1.0.3.1",
+      "groupId": "android-1.0.3-to-1.0.3.1",
+      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.3-to-1.0.3.1.zip",
+      "mirrors": []
     }
   ],
   "platformNotes": {
     "windows": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
     "linux": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
-    "macos": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
+    "macos": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection.",
+    "android": "1. Restored Solo Gates, Training & Challenges, Forbidden Memories and Link Evolution content omitted from the 1.0.3 update.\n2. This content repair preserves existing adventure progress and the updated WCS2006 puzzle collection."
   }
 }
