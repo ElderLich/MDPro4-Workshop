@@ -23,7 +23,10 @@ Patch targets are curated to the newest four releases (currently 1.0.4,
 Every supported installed version still has a direct route to 1.0.4; this
 includes Windows/Android 1.0.0 installations. A cumulative patch requires
 its exact installed baseline and does not replace a full offline installer.
-This catalog cleanup removes no Cloudflare payload, installer or historical index.
+Superseded cumulative variants to older targets are retired after their catalog
+references are removed. Every supported baseline keeps its latest cumulative
+patch, alongside the retained recent patch targets and updater recovery.
+Offline installers, local compiled players and historical indexes remain separate.
 
 ## Build and publish
 
