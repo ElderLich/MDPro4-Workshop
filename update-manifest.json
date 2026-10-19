@@ -38,6 +38,32 @@
       "mirrors": []
     },
     {
+      "fileName": "MDPro4-windows-1.0.0-to-1.0.3.zip",
+      "sizeBytes": 4518847347,
+      "sha256": "c0509073a6143115f0fd1cd33de53de88c9e76180c4a88f195cf093e34700544",
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.3",
+      "groupId": "windows-1.0.0-to-1.0.3",
+      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.0-to-1.0.3.zip",
+      "mirrors": []
+    },
+    {
+      "fileName": "MDPro4-windows-1.0.1-to-1.0.3.zip",
+      "sizeBytes": 4252267825,
+      "sha256": "1af86f2789f0e13a29e08a3a9d2fc53ac9fa6275e0665ccadf01f5360857be89",
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.1",
+      "toVersion": "1.0.3",
+      "groupId": "windows-1.0.1-to-1.0.3",
+      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.1-to-1.0.3.zip",
+      "mirrors": []
+    },
+    {
       "platform": "windows",
       "packageKind": "patch",
       "packageTarget": "app",
