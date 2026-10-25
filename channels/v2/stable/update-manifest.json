@@ -46,6 +46,19 @@
       "mirrors": []
     },
     {
+      "fileName": "MDPro4-windows-1.0.0-to-1.0.5.zip",
+      "sizeBytes": 4455127619,
+      "sha256": "a04ff0827095346f6575f3b50469cb71d4edd1f52a041a6719e8dd608f719f52",
+      "platform": "windows",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.5",
+      "groupId": "windows-1.0.0-to-1.0.5",
+      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.0-to-1.0.5.zip",
+      "mirrors": []
+    },
+    {
       "fileName": "MDPro4-windows-1.0.0-to-1.0.4.zip",
       "sizeBytes": 4519148974,
       "sha256": "d55270de26806e148fa93fdb6778de3bfb9bffc6eab25481402884fc1632e667",
