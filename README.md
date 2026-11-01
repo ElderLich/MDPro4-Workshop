@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#get-started">Get started</a> ·
   <a href="#update-your-game">Update your game</a> ·
-  <a href="https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.4">1.0.4 release notes</a> ·
+  <a href="https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.5">1.0.5 application release</a> ·
   <a href="https://discord.gg/xh8jUCN9uq">Requiem community</a>
 </p>
 
@@ -30,7 +30,7 @@ full-installer links, release announcements and installation help.
 | **macOS** | The macOS setup wizard and all accompanying payload parts. Automatic updates require the full **1.0.2 base or later**. |
 
 > [!IMPORTANT]
-> The [Android APK attached to 1.0.4](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.4)
+> The [Android APK attached to 1.0.5](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.5)
 > updates the application. Existing installations also need the matching resource
 > update offered in game. That APK alone is **not a complete first installation**.
 
@@ -44,8 +44,10 @@ routes have been retired; use the full installation guidance above to move to a
 current supported release. Keep your personal files and follow the package's
 installation instructions. Do not apply a 1.0.0 patch to those versions.
 
-Existing baseline installations still have one direct patch to 1.0.4:
-**Windows/Android 1.0.0** and **Linux/macOS 1.0.2**.
+The current application release is **1.0.5**, followed by the **1.0.5.1 resource
+update**. Existing baseline installations have a direct patch to 1.0.5:
+**Windows/Android 1.0.0** and **Linux/macOS 1.0.2**. The upgraded updater then
+offers 1.0.5.1; this follow-up keeps the 1.0.5 application and saved progress.
 
 1. Open MDPro4 and use the **in-game update check**.
 2. Read the release notes and download the update offered for your installed version.
@@ -53,15 +55,25 @@ Existing baseline installations still have one direct patch to 1.0.4:
    On Android, follow any APK installation prompt, reopen MDPro4 and allow resource preparation to complete.
 
 The updater selects the compatible route and verifies its downloaded files.
-A patch such as `1.0.0-to-1.0.4` updates that specific installed version; it is not
+A patch such as `1.0.0-to-1.0.5` updates that specific installed version; it is not
 a standalone installer. Use the in-game route when catching up after skipped releases.
-Some older installations update in stages: reopen the game and check again after
+Windows can download its offered ordered patch chain together. Android, Linux
+and macOS install one offered release per restart. For staged updates, reopen
+the game and check again after
 each completed step until it is up to date.
 
 If a download is interrupted, reopen the updater and retry. Keep your existing
 installation and personal files while troubleshooting.
 
-## What's new in 1.0.4
+## What's new in 1.0.5.1
+
+- Restored the missing Progression booster track from 1.0.5.
+- Included the missed artwork updates, including Rush artwork and Progression pack covers.
+- Kept the installed application, personal files and saved progress.
+
+Use the in-game updater to receive this resource update.
+
+## Earlier highlights from 1.0.4
 
 - Rush Ritual monsters use the correct Ritual summon presentation.
 - Deck Editor fixes overlapping card-edge selection and incorrect Genesys badges.

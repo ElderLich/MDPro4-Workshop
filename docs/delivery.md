@@ -7,12 +7,14 @@ This page records the publishing contract for maintainers and tool authors.
 
 | Channel | Path | Readers |
 | --- | --- | --- |
-| Stable legacy | [`update-manifest.json`](../update-manifest.json) | Older installed players; whole archives only |
-| Stable v2 | [`channels/v2/stable/update-manifest.json`](../channels/v2/stable/update-manifest.json) | Upgraded players; remains separate from legacy |
+| Stable legacy | [`update-manifest.json`](../update-manifest.json) | Older installed players; whole archives through 1.0.5 |
+| Stable v2 | [`channels/v2/stable/update-manifest.json`](../channels/v2/stable/update-manifest.json) | Upgraded players; 1.0.5.1 resource update after application 1.0.5 |
 | Historical test fixtures | [`channels/test/update-manifest.json`](../channels/test/update-manifest.json) | Offline synthetic examples; their former assets are not hosted |
 
-GitHub Releases keeps the current Android application update, **1.0.4**. It is
-not a complete first installation. Full installer sets are distributed through
+GitHub Releases provides the current Android application update, **1.0.5**.
+It is not a complete first installation. The shared 1.0.5.1 resource patch does
+not require another APK. Older APK URLs remain referenced by retained staged
+routes; remove none without checking those groups. Full installer sets are distributed through
 the maintainer's mirrors. Patch archives and retained recovery files are served
 from `https://updates.elderlich.com/patches/`.
 
@@ -25,12 +27,17 @@ starting version's cumulative patch to latest.
 
 | Platform | Cumulative baseline patch | Retained adjacent steps |
 | --- | --- | --- |
-| Windows | 1.0.0 → 1.0.4 | 1.0.3 → 1.0.3.1 → 1.0.3.2 → 1.0.4 |
-| Android | 1.0.0 → 1.0.4 | 1.0.3 → 1.0.3.1 → 1.0.4 |
-| Linux | 1.0.2 → 1.0.4 | 1.0.3 → 1.0.3.1 → 1.0.4 |
-| macOS | 1.0.2 → 1.0.4 | 1.0.3 → 1.0.3.1 → 1.0.4 |
+| Windows | 1.0.0 → 1.0.5 | 1.0.3 → 1.0.3.1 → 1.0.3.2 → 1.0.4 → 1.0.5 → 1.0.5.1 |
+| Android | 1.0.0 → 1.0.5 | 1.0.3 → 1.0.3.1 → 1.0.4 → 1.0.5 → 1.0.5.1 |
+| Linux | 1.0.2 → 1.0.5 | 1.0.3 → 1.0.3.1 → 1.0.4 → 1.0.5 → 1.0.5.1 |
+| macOS | 1.0.2 → 1.0.5 | 1.0.3 → 1.0.3.1 → 1.0.4 → 1.0.5 → 1.0.5.1 |
 
-Windows also retains direct **1.0.3 → 1.0.4** and **1.0.3.1 → 1.0.4** as explicit
+The final 1.0.5 → 1.0.5.1 step is on v2 only. Existing catalogs also retain
+older baseline-to-1.0.4 rows; this documentation update does not retire them.
+Future curation must verify reachability before publishing metadata changes.
+
+Windows also retains direct routes from **1.0.3** and **1.0.3.1** to both
+**1.0.4** and **1.0.5** as explicit
 compatibility exceptions. Combining those clients' entire adjacent chain would
 restore a helper their old launcher cannot start. Keep the
 [one-time Windows updater recovery](https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip)
