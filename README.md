@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/workshop-banner.svg" alt="MDPro4 Workshop — updates, downloads and recovery" width="1200">
+  <img src="assets/workshop-banner.svg" alt="MDPro4 Workshop — updates, downloads and installation help" width="1200">
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#get-started">Get started</a> ·
   <a href="#update-your-game">Update your game</a> ·
-  <a href="https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.5">1.0.5 application release</a> ·
+  <a href="https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.6">1.0.6 application release</a> ·
   <a href="https://discord.gg/xh8jUCN9uq">Requiem community</a>
 </p>
 
@@ -26,11 +26,11 @@ full-installer links, release announcements and installation help.
 | --- | --- |
 | **Windows** | The setup EXE and **all** accompanying payload parts, together in one folder. Run the setup EXE. |
 | **Android** | The complete Android installation set. Follow its numbered APK-part instructions and let resource preparation finish. |
-| **Linux** | The Linux setup wizard and all accompanying payload parts. Automatic updates require the full **1.0.2 base or later**. |
-| **macOS** | The macOS setup wizard and all accompanying payload parts. Automatic updates require the full **1.0.2 base or later**. |
+| **Linux** | The Linux setup wizard and all accompanying payload parts. The supported original installation baseline is **1.0.2**. |
+| **macOS** | The macOS setup wizard and all accompanying payload parts. The supported original installation baseline is **1.0.2**. |
 
 > [!IMPORTANT]
-> The [Android APK attached to 1.0.5](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.5)
+> The [Android APK attached to 1.0.6](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.6)
 > updates the application. Existing installations also need the matching resource
 > update offered in game. That APK alone is **not a complete first installation**.
 
@@ -39,15 +39,18 @@ MDPro4 installation when moving from MDPro3.
 
 ## Update your game
 
-**Small patch steps start at 1.0.3.** Windows and Android 1.0.1 / 1.0.2 update
-routes have been retired; use the full installation guidance above to move to a
-current supported release. Keep your personal files and follow the package's
-installation instructions. Do not apply a 1.0.0 patch to those versions.
+The current release is **1.0.6**. Automatic updates retain these starting points:
 
-The current application release is **1.0.5**, followed by the **1.0.5.1 resource
-update**. Existing baseline installations have a direct patch to 1.0.5:
-**Windows/Android 1.0.0** and **Linux/macOS 1.0.2**. The upgraded updater then
-offers 1.0.5.1; this follow-up keeps the 1.0.5 application and saved progress.
+| Your installation | Update route |
+| --- | --- |
+| Windows or Android **1.0.0** | One cumulative patch to **1.0.6**. |
+| Linux or macOS **1.0.2** | One cumulative patch to **1.0.6**. |
+| Any platform **1.0.4 or 1.0.5** | Follow **1.0.4 → 1.0.5 → 1.0.5.1 → 1.0.6**, starting at your installed version. |
+| Any platform **1.0.5.1** | One patch to **1.0.6**. |
+| An older intermediate version below **1.0.4**, other than the exact original baseline above | Install the complete package using the guidance above. Those older patch routes and the Windows 1.0.3 updater recovery are retired. |
+
+Keep your personal files and follow the full package's installation instructions
+when reinstalling. Do not apply a baseline patch to a different installed version.
 
 1. Open MDPro4 and use the **in-game update check**.
 2. Read the release notes and download the update offered for your installed version.
@@ -55,44 +58,58 @@ offers 1.0.5.1; this follow-up keeps the 1.0.5 application and saved progress.
    On Android, follow any APK installation prompt, reopen MDPro4 and allow resource preparation to complete.
 
 The updater selects the compatible route and verifies its downloaded files.
-A patch such as `1.0.0-to-1.0.5` updates that specific installed version; it is not
+A patch such as `1.0.0-to-1.0.6` updates that specific installed version; it is not
 a standalone installer. Use the in-game route when catching up after skipped releases.
 Windows can download its offered ordered patch chain together. Android, Linux
-and macOS install one offered release per restart. For staged updates, reopen
-the game and check again after
-each completed step until it is up to date.
+and macOS install one offered release per restart. Reopen the game and check
+again after each completed step until it is up to date.
+
+The **1.0.5.1** step updates resources while retaining the **1.0.5 application**.
+The next **1.0.6** step includes the new player. Older Android application assets
+can remain available when an offered intermediate step still needs them; use
+the APK paired with your offered update.
 
 If a download is interrupted, reopen the updater and retry. Keep your existing
 installation and personal files while troubleshooting.
 
-## What's new in 1.0.5.1
+### Rebuilt Android and Linux 1.0.6
 
-- Restored the missing Progression booster track from 1.0.5.
-- Included the missed artwork updates, including Rush artwork and Progression pack covers.
-- Kept the installed application, personal files and saved progress.
+The rebuilt Android and Linux players keep version **1.0.6** and fix the
+unsupported disk-space query that interrupted update preparation.
 
-Use the in-game updater to receive this resource update.
+For Android with a pending 1.0.6 update or completed 1.0.6 resources, install the
+current [1.0.6 application APK](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.6)
+over the existing application. Do **not** uninstall it or clear its data. Reopen
+the game and let resource preparation finish. A 1.0.5.1 installation without a
+pending update should start the offered in-game update instead of installing
+the APK alone. If a download started before the repair and reports a checksum
+error, close and reopen the game and check for updates again. Preserve existing
+pending-update files; a complete downloaded queue can finish with the rebuilt
+APK. Contact support if the error persists instead of deleting update metadata
+or personal data.
 
-## Earlier highlights from 1.0.4
+For Linux already running the original 1.0.6 player, install the existing full
+1.0.2 baseline into a **new folder**, then use its baseline update to the rebuilt
+1.0.6. A same-version player cannot receive a forward automatic patch. Retain
+old decks, replays and settings until deliberately migrated; do not copy the
+old player or entire `Data` folder over the new installation. No player-overlay
+archive is required. Linux 1.0.5.1 uses the ordinary patch offered in game.
 
-- Rush Ritual monsters use the correct Ritual summon presentation.
-- Deck Editor fixes overlapping card-edge selection and incorrect Genesys badges.
-- Each deck can select a Duel Links field in its Appearance settings.
-- Windows receives corrected update disk-space checks, alongside restored Solo Adventures content.
+If an older Windows updater reports `PathTooLongException`, use a shorter
+installation path, such as `C:\Games\MDPro4`, before retrying.
 
-[Read the release details →](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.4)
+## What's new in 1.0.6
 
-## Need a recovery?
+- **Endless Tower:** a separate Expedition mode with saved random floors, three lives, duel points and upgrade choices. Sanctuary runs retain their progress.
+- **Progression improvements:** a redesigned Series dashboard, clearer room joining, reconnect fixes, rarity sorting and smoother pack selection and opening.
+- **Combo Sheets from Test Hand:** create editable drafts from your opening hand, observed actions and last complete board, with compact groups and reusable cards.
+- **Duel and replay fixes:** improved summon-material animations, a Duel Log that lists materials, Activation Order settings and corrected native card counters and placement guidance.
+- **Native presentation updates:** restored Duel Links and Cross Duel effects, more cut-ins, Manga Frames, the riding stadium field and additional card-effect demonstrations.
+- **Responsive layouts:** improved tablet, foldable and ultrawide views, including menus, the duel field, deck columns and pack openings.
+- **Deck Sync improvements:** missing-file recovery, readable synced deck names and support for 600 deck identities per account.
+- **Reliability improvements:** corrected Linux card-finish lighting, more resilient pre-release downloads, successful-update archive cleanup on Linux/macOS and release-player diagnostics.
 
-### Windows 1.0.3 / 1.0.3.1 — `FileVersionInfo`
-
-1. Close MDPro4.
-2. Download the [one-time updater recovery ZIP](https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.3-updater-recovery.zip).
-3. Extract it beside `MDPro4.exe` and run `Repair-Windows-1.0.3-Updater.cmd`.
-4. Reopen the game and run the normal update check.
-
-If the repair says **Recovery is already configured**, fully close and reopen
-the game before retrying. This recovery is for the affected Windows versions.
+Read the complete release notes in the in-game updater.
 
 ## Get help
 
