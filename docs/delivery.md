@@ -9,7 +9,8 @@ This page records the publishing contract for maintainers and tool authors.
 | --- | --- | --- |
 | Stable legacy | [`update-manifest.json`](../update-manifest.json) | Older installed players; compatible whole archives through 1.0.6 |
 | Stable v2 | [`channels/v2/stable/update-manifest.json`](../channels/v2/stable/update-manifest.json) | Upgraded players; whole archives or verified segments, including the shared 1.0.5.1 resource step |
-| Historical test fixtures | [`channels/test/update-manifest.json`](../channels/test/update-manifest.json) | Offline synthetic examples; their former assets are not hosted |
+| Retired test endpoint | [`channels/test/update-manifest.json`](../channels/test/update-manifest.json) | Disabled catalog; offers no downloads |
+| Historical test fixture | [`docs/fixtures/patch-studio-1.0.2-historical.json`](fixtures/patch-studio-1.0.2-historical.json) | Preserved synthetic metadata for offline reference only |
 
 GitHub Releases provides the current Android application update, **1.0.6**.
 It is not a complete first installation. Retain the **1.0.5 APK** while the
@@ -101,8 +102,57 @@ documentation. In particular, retain the 1.0.5 Android APK while its staged rout
 is supported. Preserve local players, complete installers, source dependencies
 and historical indexes separately from remote retirement.
 
-Workshop's test channel is a historical offline fixture. Three/five-package
+Workshop's former test catalog is preserved as a historical offline fixture;
+the retired endpoint offers no downloads. Three/five-package
 download and five-patch application coverage runs through the maintained
 production-code fixtures in the game repository. Catalog and payload identity
 checks establish publication consistency; they do not claim installation and
 launch acceptance on every native platform or user device.
+
+## Historical test channel
+
+**4 November 2026:** the obsolete test endpoint was disabled instead of continuing
+to offer twelve missing synthetic downloads. Its old catalog is preserved
+byte-for-byte in [the historical fixture](fixtures/patch-studio-1.0.2-historical.json).
+Those former `v1.0.1-test.1` / `v1.0.2-test.1` assets return HTTP 404 and are not
+game patches. Do not install them into a real game or relabel current payloads
+with their example versions. No stable route, payload, installer or local release
+artifact was removed by this change.
+
+The disabled endpoint uses the existing no-offer catalog convention: version
+`0.0.0`, no platform targets and an empty download list. It is not a game release.
+Installed clients that explicitly selected it receive no update offer. Ordinary
+players never select it automatically: the current game uses stable v2, and older
+players use stable legacy. A custom test URL remains an explicit override and
+is not silently redirected.
+
+To leave that old test override, close the game and remove only the
+`MDPro4UpdateManifestUrl` entry from `Data/config.conf`, or set it to
+`https://raw.githubusercontent.com/ElderLich/MDPro4-Workshop/main/channels/v2/stable/update-manifest.json`.
+Keep all other settings, restart and use the ordinary update check. Do not change
+the installed version marker or manually apply a patch for another baseline.
+
+### Repeatable multi-patch checks
+
+The supported real Windows route from **1.0.4** currently has **three release
+steps**: **1.0.4 → 1.0.5 → 1.0.5.1 → 1.0.6**. Windows downloads the complete
+ordered chain before its single installation handoff. Archive segments are
+physical parts of a release and do not count as additional release steps.
+Android, Linux and macOS still install one offered step per restart.
+
+There is no retained five-step production route to fabricate for testing. The
+maintained game-repository fixtures generate isolated synthetic histories and
+exercise production download/planning/install code. From the game checkout:
+
+```powershell
+python -m unittest discover -s Tools/Release/tests -p test_client_update_download.py -v
+python -m unittest discover -s Tools/Release/tests -p test_multi_release_updates.py -v
+```
+
+The first suite covers three/five-package ordering, retry, cancellation, verified
+cache reuse and complete installation handoff with controlled HTTP responses.
+The second covers an actual five-patch merge/application, final bytes, checksums
+and rollback inside an isolated fixture. Neither requires the historical GitHub
+test assets or modifies an installed game. These tests establish client behavior;
+they do not claim native-device installation or checksum verification of every
+large production download.
