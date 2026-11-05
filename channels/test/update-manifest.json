@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "version": "0.0.0",
   "platformVersions": {},
-  "releasePageUrl": "https://github.com/ElderLich/MDPro4-Workshop/blob/main/docs/delivery.md#historical-test-channel",
-  "message": "Retired test channel. Its historical synthetic patch assets are no longer hosted. Use the normal stable channel for game updates; see the Workshop delivery guide for maintained local tests.",
-  "notes": "Retired test channel. Its historical synthetic patch assets are no longer hosted. Use the normal stable channel for game updates; see the Workshop delivery guide for maintained local tests.",
+  "releasePageUrl": "https://github.com/ElderLich/MDPro4-Workshop#update-your-game",
+  "message": "Use the stable channel to check for MDPro4 updates.",
+  "notes": "Use the stable channel to check for MDPro4 updates.",
   "downloads": []
 }
