@@ -188,19 +188,6 @@
       "mirrors": []
     },
     {
-      "fileName": "MDPro4-windows-1.0.0-to-1.0.6.zip",
-      "sizeBytes": 5997253475,
-      "sha256": "6e6d13f79d6ade52d1022b5c1ed20d986f62e0ed3056f923efdc2867600b4365",
-      "platform": "windows",
-      "packageKind": "patch",
-      "packageTarget": "app",
-      "fromVersion": "1.0.0",
-      "toVersion": "1.0.6",
-      "groupId": "windows-1.0.0-to-1.0.6",
-      "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.0-to-1.0.6.zip",
-      "mirrors": []
-    },
-    {
       "fileName": "MDPro4-windows-1.0.5.1-to-1.0.6.zip",
       "sizeBytes": 1452168910,
       "sha256": "fa45141febf50964832c85ee25270b9444b79710e1f4e9cd8db0a8246526a5cf",
@@ -212,32 +199,6 @@
       "groupId": "windows-1.0.5.1-to-1.0.6",
       "url": "https://updates.elderlich.com/patches/windows/MDPro4-windows-1.0.5.1-to-1.0.6.zip",
       "mirrors": []
-    },
-    {
-      "fileName": "MDPro4-android-1.0.0-to-1.0.6.zip",
-      "sizeBytes": 5627016925,
-      "sha256": "885d3cf51f4eedd217d7692c6a39e1ab61c10d173fd70d6ddf32badfac78cf82",
-      "platform": "android",
-      "packageKind": "patch",
-      "packageTarget": "data",
-      "fromVersion": "1.0.0",
-      "toVersion": "1.0.6",
-      "groupId": "android-1.0.0-to-1.0.6",
-      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.0-to-1.0.6.zip",
-      "mirrors": []
-    },
-    {
-      "platform": "android",
-      "packageKind": "patch",
-      "packageTarget": "app",
-      "fromVersion": "1.0.0",
-      "toVersion": "1.0.6",
-      "groupId": "android-1.0.0-to-1.0.6",
-      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.6/MDPro4-android-1.0.6-update.apk",
-      "mirrors": [],
-      "fileName": "MDPro4-android-1.0.6-update.apk",
-      "sizeBytes": 485518032,
-      "sha256": "f9282d4c258f8a6254a644d9918acdd9fdb33047e4eb9f76faaa91468d3711f8"
     },
     {
       "fileName": "MDPro4-android-1.0.5.1-to-1.0.6.zip",
@@ -266,19 +227,6 @@
       "sha256": "f9282d4c258f8a6254a644d9918acdd9fdb33047e4eb9f76faaa91468d3711f8"
     },
     {
-      "fileName": "MDPro4-linux-1.0.2-to-1.0.6.tar.gz",
-      "sizeBytes": 5175735822,
-      "sha256": "af4fa5ceb36fea56e7fdcf01ef67a745ac6481be56bec8a3f02ade6832d3dfed",
-      "platform": "linux",
-      "packageKind": "patch",
-      "packageTarget": "app",
-      "fromVersion": "1.0.2",
-      "toVersion": "1.0.6",
-      "groupId": "linux-1.0.2-to-1.0.6",
-      "url": "https://updates.elderlich.com/patches/linux/MDPro4-linux-1.0.2-to-1.0.6.tar.gz",
-      "mirrors": []
-    },
-    {
       "fileName": "MDPro4-linux-1.0.5.1-to-1.0.6.tar.gz",
       "sizeBytes": 1443169506,
       "sha256": "a498a500c3a28fe526906bdf9ba784944fe21edd0df055101295b794c846e088",
@@ -289,19 +237,6 @@
       "toVersion": "1.0.6",
       "groupId": "linux-1.0.5.1-to-1.0.6",
       "url": "https://updates.elderlich.com/patches/linux/MDPro4-linux-1.0.5.1-to-1.0.6.tar.gz",
-      "mirrors": []
-    },
-    {
-      "fileName": "MDPro4-macos-1.0.2-to-1.0.6.tar.gz",
-      "sizeBytes": 7255595158,
-      "sha256": "1e5841286f2349007a5f511ce45ad33c256c83314e3e31d855ec0cd950f344f1",
-      "platform": "macos",
-      "packageKind": "patch",
-      "packageTarget": "app",
-      "fromVersion": "1.0.2",
-      "toVersion": "1.0.6",
-      "groupId": "macos-1.0.2-to-1.0.6",
-      "url": "https://updates.elderlich.com/patches/macos/MDPro4-macos-1.0.2-to-1.0.6.tar.gz",
       "mirrors": []
     },
     {

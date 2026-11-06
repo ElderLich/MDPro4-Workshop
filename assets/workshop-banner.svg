@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
   <title id="title">MDPro4 Workshop</title>
-  <desc id="description">Installation, updates and a preview of version 1.0.7. An amber release-card mark on the dark Ember palette used by MDPro4 Patch Studio.</desc>
+  <desc id="description">Installation, updates and version 1.0.7. An amber release-card mark on the dark Ember palette used by MDPro4 Patch Studio.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#201c1a"/>
@@ -23,7 +23,7 @@
     <text x="56" y="135" fill="#fff4e9" font-size="78" font-weight="700" letter-spacing="-3">MDPro4</text>
     <text x="61" y="183" fill="#f0b979" font-size="30" font-weight="600" letter-spacing="8">WORKSHOP</text>
     <path d="M62 204H630" stroke="url(#rule)"/>
-    <text x="61" y="239" fill="#cbbbad" font-size="21">Version 1.0.7 preview</text>
+    <text x="61" y="239" fill="#cbbbad" font-size="21">Version 1.0.7</text>
     <text x="61" y="272" fill="#cbbbad" font-size="13" letter-spacing="1.6">WINDOWS  ·  ANDROID  ·  LINUX  ·  macOS</text>
   </g>
   <!-- Reuses Patch Studio's symbol_shapes(True) geometry and Ember colors. -->

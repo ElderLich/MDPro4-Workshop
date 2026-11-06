@@ -1,6 +1,6 @@
 # Update delivery
 
-The published catalogs currently target **1.0.6**. Use ReleaseStudio for complete installers and PatchStudio for patch releases. Publish a platform's 1.0.7 target only after its payloads and public routes have passed verification. [Player installation and update guide](../README.md)
+Both published catalogs target **1.0.7** on Windows, Android, Linux and macOS. Use ReleaseStudio for complete installers and PatchStudio for patch releases. The 1.0.6 → 1.0.7 steps and original-baseline cumulative updates are available on both channels. [Player installation and update guide](../README.md)
 
 | Catalog | Readers and payloads |
 | --- | --- |
