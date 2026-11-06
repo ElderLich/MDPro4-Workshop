@@ -162,6 +162,19 @@
       "sha256": "1e3208ca62d094b80068fe3dba4ce0f5624184629a6f012265683b85fcbe6831"
     },
     {
+      "fileName": "MDPro4-linux-1.0.2-to-1.0.7.tar.gz",
+      "sizeBytes": 5415327824,
+      "sha256": "e3611205ac3e519f4829c52f7f87408f24a4c95b642dc2d9e476a3236730b7c0",
+      "platform": "linux",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.2",
+      "toVersion": "1.0.7",
+      "groupId": "linux-1.0.2-to-1.0.7",
+      "url": "https://updates.elderlich.com/patches/linux/MDPro4-linux-1.0.2-to-1.0.7.tar.gz",
+      "mirrors": []
+    },
+    {
       "fileName": "MDPro4-windows-1.0.0-to-1.0.6.zip",
       "sizeBytes": 5997253475,
       "sha256": "6e6d13f79d6ade52d1022b5c1ed20d986f62e0ed3056f923efdc2867600b4365",
