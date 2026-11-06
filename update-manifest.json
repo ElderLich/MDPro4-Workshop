@@ -136,6 +136,32 @@
       "mirrors": []
     },
     {
+      "fileName": "MDPro4-android-1.0.0-to-1.0.7.zip",
+      "sizeBytes": 5839105291,
+      "sha256": "7234643e1d706012220e245879c48a6a8cdea6359cbba0467b4c90dc66d37e6f",
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "data",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.7",
+      "groupId": "android-1.0.0-to-1.0.7",
+      "url": "https://updates.elderlich.com/patches/android/MDPro4-android-1.0.0-to-1.0.7.zip",
+      "mirrors": []
+    },
+    {
+      "platform": "android",
+      "packageKind": "patch",
+      "packageTarget": "app",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.0.7",
+      "groupId": "android-1.0.0-to-1.0.7",
+      "url": "https://github.com/ElderLich/MDPro4-Workshop/releases/download/v1.0.7/MDPro4-android-1.0.7-update.apk",
+      "mirrors": [],
+      "fileName": "MDPro4-android-1.0.7-update.apk",
+      "sizeBytes": 485873122,
+      "sha256": "1e3208ca62d094b80068fe3dba4ce0f5624184629a6f012265683b85fcbe6831"
+    },
+    {
       "fileName": "MDPro4-windows-1.0.0-to-1.0.6.zip",
       "sizeBytes": 5997253475,
       "sha256": "6e6d13f79d6ade52d1022b5c1ed20d986f62e0ed3056f923efdc2867600b4365",
