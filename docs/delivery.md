@@ -1,6 +1,6 @@
 # Update delivery
 
-Both published catalogs target **1.0.7** on Windows, Android, Linux and macOS. Use ReleaseStudio for complete installers and PatchStudio for patch releases. The 1.0.6 → 1.0.7 steps and original-baseline cumulative updates are available on both channels. [Player installation and update guide](../README.md)
+The stable v2 catalog targets **1.0.8** on Windows, Android, Linux and macOS through the **1.0.7 → 1.0.8** steps. The legacy catalog remains at **1.0.7** so older readers can install the updater needed for v2. Both catalogs retain the original-baseline cumulative updates to 1.0.7 and earlier supported adjacent steps. Use ReleaseStudio for complete installers and PatchStudio for patch releases. [Player installation and update guide](../README.md)
 
 | Catalog | Readers and payloads |
 | --- | --- |
@@ -11,14 +11,14 @@ If an installation uses a custom test catalog, close the game and remove just th
 
 ## Supported routes
 
-Keep a cumulative route to the latest release from Windows/Android **1.0.0** and Linux/macOS **1.0.2**. Also retain the adjacent chain starting at **1.0.4**, including the shared **1.0.5 → 1.0.5.1** resources. Use whole archives for Linux 1.0.6 readers until every shipped variant can handle the proposed format.
+Preserve update reachability from Windows/Android **1.0.0** and Linux/macOS **1.0.2**. Their published cumulative routes reach **1.0.7**; after that update and a restart, the v2 catalog provides **1.0.7 → 1.0.8**. Also retain the adjacent chain starting at **1.0.4**, including the shared **1.0.5 → 1.0.5.1** resources. Use whole archives for Linux 1.0.6 readers until every shipped variant can handle the proposed format.
 
 Windows can queue multiple releases for one installer handoff. Android, Linux and macOS install one offered release per restart. Keep each Android resource and APK pair together, including the 1.0.5 APK while a supported step references it. Exact retired intermediate versions receive the full-installation guide.
 
 ## Before publishing
 
 1. Build the incremental and original-baseline packages from the correct installed-file indexes. Keep the legacy and v2 catalogs separate.
-2. Verify each required archive, segment and APK at its public URL, including its size and checksum. Run the client planner against both catalogs for every supported starting version.
+2. Verify local hashes, remote server digests or object metadata, and public HEAD responses for every required archive, segment and APK. Never download full remote payloads for verification or testing. Run the client planner against both catalogs for every supported starting version.
 3. Publish the verified catalog changes. Read them back and recheck reachability before retiring superseded public payloads.
 
 The game checkout contains repeatable three- and five-package tests. Run these from its root:

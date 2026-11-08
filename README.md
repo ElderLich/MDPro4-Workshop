@@ -1,22 +1,22 @@
 <p align="center">
-  <img src="assets/workshop-banner.svg" alt="MDPro4 Workshop — installation, updates and version 1.0.7" width="1200">
+  <img src="assets/workshop-banner.svg" alt="MDPro4 Workshop — installation, updates and version 1.0.8" width="1200">
 </p>
 
 <p align="center">
   <a href="#get-started">Install MDPro4</a> · <a href="#update-your-game">Update your game</a> ·
-  <a href="#new-in-107">New in 1.0.7</a> · <a href="#get-help">Get help</a>
+  <a href="#new-in-108">New in 1.0.8</a> · <a href="#get-help">Get help</a>
 </p>
 
-**Current release · 1.0.7**
+**Current release · 1.0.8**
 
-## New in 1.0.7
+## New in 1.0.8
 
-- **Duels.** The round clock shows the active player's remaining time in online ocgcore duels. Confirming Activation Order keeps other eligible effects available for their next prompt.
-- **Progression.** AI opponents can rebuild from their earned cards before each duel. Guests can share their confirmed prizes with the organizer, and saved series have an individual Delete action.
-- **Decks and replays.** Card details follow the selected card and its appearance when lists change. Ten Thousand Dragon keeps its correct identity and artwork. A failed deck move preserves the original.
-- **Adventure and desktop.** Ordinary Master Duel Adventure encounters shuffle for each attempt. Linux has repaired file and folder dialogs, and macOS updates replace application files more reliably.
+- **Duels and replays.** Duel timers wait until presentation finishes and response controls are ready. Extra Deck Special Summons show their command button, and revealed cards keep their artwork during replay activations and returns to the Deck.
+- **Decks and search.** Card-name declarations support repeated searches and Cancel. Changing search results no longer select an unrelated card, and dragging a card out of a deck immediately rearranges the remaining cards.
+- **Sound and fields.** Queued character speech keeps its matching voice, subtitle and expression. Sound loading no longer interrupts other requests. Melffy and Toon World regain their imported music, and cards sit correctly on the Melffy field.
+- **Appearance and desktop.** New card finishes include Halloween Lanterns, Haunted Night, Currency Rain, Bonfire Embers, Sunlight Covenant and Abyssal Eclipse, plus 36 additional finishes. Linux has compatible versions of the bundled animated card artworks.
 
-Version 1.0.7 is available through the in-game updater on Windows, Android, Linux and macOS.
+Version 1.0.8 is available through the in-game updater on Windows, Android, Linux and macOS. [Read all 1.0.8 release notes](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.8).
 
 ## Get started
 
@@ -34,11 +34,11 @@ Open MDPro4, check for updates, and accept the package offered for your installe
 
 | Your installation | What to expect |
 | --- | --- |
-| Windows or Android 1.0.0, Linux or macOS 1.0.2 | One cumulative update from your original installation baseline. |
+| Windows or Android 1.0.0, Linux or macOS 1.0.2 | Take the cumulative update to 1.0.7, then reopen the game and check again for 1.0.8. |
 | Any platform from 1.0.4 onward | Windows downloads an offered chain together and hands it to the installer once. On Android, Linux and macOS, reopen the game and check again after each step. |
 | An intermediate version below 1.0.4 outside the baselines above | Use the complete installation set. Keep your decks, replays and settings when reinstalling. |
 
-**Android.** Use the APK paired with the resources offered in game. [Get the 1.0.7 application update](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.7). If a 1.0.6 update is already pending, install the [1.0.6 application update](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.6) over the existing app and reopen it. Keep the app's data intact.
+**Android.** Use the APK paired with the resources offered in game. [Get the 1.0.8 application update](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.8). If an older update is already pending, finish it with its matching [1.0.7 APK](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.7) or [1.0.6 APK](https://github.com/ElderLich/MDPro4-Workshop/releases/tag/v1.0.6), then reopen the game and check again. Install over the existing app and keep its data intact.
 
 **Linux.** If the original 1.0.6 player fails during the disk-space check, install the full 1.0.2 baseline in a fresh folder and use its cumulative update. Keep the old folder until you have moved your personal files.
 
